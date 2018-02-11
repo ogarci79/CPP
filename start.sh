@@ -27,7 +27,6 @@ done
 files=$(grep -ril zero $new_dir)
 for i in $files
 do
-    echo $i
     sed  -i "s/zero/$new_dir/Ig" $i
 done
 
