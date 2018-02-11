@@ -13,4 +13,21 @@ if [ -d $new_dir ];then
 fi
 
 cp -r zero $new_dir
-mv $new_dir/src/zero.py $new_dir/src/"$new_dir".py
+dirs=$(find $new_dir -name "zero*")
+for i in $dirs
+do
+    pathname=$(dirname "$i")
+    filename=$(basename "$i")
+    ext="${filename##*.}"
+    newfilename="$pathname/$new_dir.$ext"
+
+    mv $i $newfilename
+done 
+
+files=$(grep -ril zero $new_dir)
+for i in $files
+do
+    echo $i
+    sed  -i "s/zero/$new_dir/Ig" $i
+done
+
