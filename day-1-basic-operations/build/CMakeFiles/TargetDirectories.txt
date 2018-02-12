@@ -1,0 +1,6 @@
+/home/ogarci79/code/cpp/day-1-basic-operations/build/CMakeFiles/edit_cache.dir
+/home/ogarci79/code/cpp/day-1-basic-operations/build/CMakeFiles/rebuild_cache.dir
+/home/ogarci79/code/cpp/day-1-basic-operations/build/CMakeFiles/datatypeConversion.dir
+/home/ogarci79/code/cpp/day-1-basic-operations/build/CMakeFiles/cropAndResize.dir
+/home/ogarci79/code/cpp/day-1-basic-operations/build/CMakeFiles/readWriteDisplay.dir
+/home/ogarci79/code/cpp/day-1-basic-operations/build/CMakeFiles/rotate.dir
